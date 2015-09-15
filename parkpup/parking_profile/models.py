@@ -13,7 +13,7 @@ class ActiveProfileManager(models.Manager):
 
 
 @python_2_unicode_compatible
-class ImagerProfile(models.Model):
+class ParkingProfile(models.Model):
     user = models.OneToOneField(
         User,
         related_name='profile',
