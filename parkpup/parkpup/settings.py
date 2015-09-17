@@ -37,7 +37,9 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'parking_profile'
+    'parking_profile',
+    'parking_images',
+    'bootstrap3',
 )
 
 MIDDLEWARE_CLASSES = (
